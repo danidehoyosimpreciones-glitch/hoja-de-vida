@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
 <meta charset="UTF-8">
-<title>Soportes</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Estudios</title>
+
 <link rel="stylesheet" href="estilos.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -14,47 +23,78 @@
 
 <nav>
 <ul class="menu">
+
 <li><a href="index.html">Inicio</a></li>
 <li><a href="datos.html">Datos Personales</a></li>
 <li><a href="estudios.html">Estudios</a></li>
 <li><a href="documentos.html">Documentos</a></li>
 <li><a href="soportes.html">Soportes</a></li>
+<li><a href="contacto.html">Contacto</a></li>
+
 </ul>
 </nav>
 
 <section>
 
-<h2>SOPORTES Y CERTIFICADOS</h2>
+<h2>ESTUDIOS REALIZADOS</h2>
 
-<h3>CÉDULA</h3>
-<img src="cedula.jpg" class="documento">
+<div class="container">
 
-<h3>DIPLOMA DE BACHILLER</h3>
-<img src="diploma_bachiller.jpg" class="documento">
+<div class="card p-3 mb-3">
 
-<h3>CURSOS</h3>
-<img src="curso1.jpg" class="documento">
-<img src="curso2.jpg" class="documento">
-<img src="curso3.jpg" class="documento">
-<img src="curso4.jpg" class="documento">
-<img src="curso5.jpg" class="documento">
-<img src="curso6.jpg" class="documento">
-<img src="curso7.jpg" class="documento">
+<p>
+<strong>Bachiller Académico:</strong>
+I.E. Dolores Garrido De González - 2022
+</p>
 
-<h3>CONTRALORÍA</h3>
-<img src="certificado_contraloria.jpg" class="documento">
+</div>
 
-<h3>PROCURADURÍA</h3>
-<img src="certificado_procuraduria.jpg" class="documento">
+<div class="card p-3 mb-3">
 
-<h3>POLICÍA</h3>
-<img src="antecedentes_policia.jpg" class="documento">
+<p>
+<strong>Formación Universitaria:</strong>
+Cursando 6° Semestre De Ingeniería De Software - Universidad De Cartagena
+</p>
+
+</div>
+
+<div class="card p-3 mb-3">
+
+<p><strong>Cursos Realizados:</strong></p>
+
+<ul>
+
+<li>TÉCNICAS DE COMUNICACIÓN EN EL NIVEL OPERATIVO</li>
+<li>INTRODUCCIÓN AL ABP (IABP)</li>
+<li>GAMIFICA TU PROYECTO (GAPR)</li>
+<li>ATENCIÓN INTEGRAL EN SALUD A LAS VÍCTIMAS DE VIOLENCIAS SEXUALES</li>
+<li>BASES DE DATOS: GENERALIDADES Y SISTEMAS DE GESTIÓN</li>
+<li>APLICACIÓN DEL MARCO DE TRABAJO SCRUM</li>
+<li>FUNDAMENTOS DE DISEÑO</li>
+
+</ul>
+
+</div>
+
+</div>
 
 </section>
 
 <footer>
 <p>© 2026 - DANIELA JUDITH VILLALBA DE HOYOS</p>
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+$("section").hide().fadeIn(1200);
+
+});
+
+</script>
 
 </body>
 </html>
