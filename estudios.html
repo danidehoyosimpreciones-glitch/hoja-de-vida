@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
 <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Estudios</title>
+
 <link rel="stylesheet" href="estilos.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -14,11 +23,14 @@
 
 <nav>
 <ul class="menu">
+
 <li><a href="index.html">Inicio</a></li>
 <li><a href="datos.html">Datos Personales</a></li>
 <li><a href="estudios.html">Estudios</a></li>
 <li><a href="documentos.html">Documentos</a></li>
 <li><a href="soportes.html">Soportes</a></li>
+<li><a href="contacto.html">Contacto</a></li>
+
 </ul>
 </nav>
 
@@ -26,13 +38,32 @@
 
 <h2>ESTUDIOS REALIZADOS</h2>
 
-<p><strong>Bachiller Académico:</strong> I.E. Dolores Garrido De González - 2022</p>
+<div class="container">
 
-<p><strong>Formación Universitaria:</strong> Cursando 6 Semestre De Ingeniería De Software - Universidad De Cartagena</p>
+<div class="card p-3 mb-3">
+
+<p>
+<strong>Bachiller Académico:</strong>
+I.E. Dolores Garrido De González - 2022
+</p>
+
+</div>
+
+<div class="card p-3 mb-3">
+
+<p>
+<strong>Formación Universitaria:</strong>
+Cursando 6° Semestre De Ingeniería De Software - Universidad De Cartagena
+</p>
+
+</div>
+
+<div class="card p-3 mb-3">
 
 <p><strong>Cursos Realizados:</strong></p>
 
 <ul>
+
 <li>TÉCNICAS DE COMUNICACIÓN EN EL NIVEL OPERATIVO</li>
 <li>INTRODUCCIÓN AL ABP (IABP)</li>
 <li>GAMIFICA TU PROYECTO (GAPR)</li>
@@ -40,7 +71,12 @@
 <li>BASES DE DATOS: GENERALIDADES Y SISTEMAS DE GESTIÓN</li>
 <li>APLICACIÓN DEL MARCO DE TRABAJO SCRUM</li>
 <li>FUNDAMENTOS DE DISEÑO</li>
+
 </ul>
+
+</div>
+
+</div>
 
 </section>
 
@@ -48,8 +84,17 @@
 <p>© 2026 - DANIELA JUDITH VILLALBA DE HOYOS</p>
 </footer>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+$("section").hide().fadeIn(1200);
+
+});
+
+</script>
+
 </body>
-
 </html>
-
-
